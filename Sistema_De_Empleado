@@ -1,5 +1,3 @@
-* @author migue
- */
 public class Sistema_De_Empleado {
 
     public static void main(String[] args) {
