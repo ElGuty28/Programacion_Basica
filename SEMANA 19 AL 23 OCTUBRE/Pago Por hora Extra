@@ -1,0 +1,21 @@
+Algoritmo Pago_Horas_Extra
+	
+	Definir horas,extra,sueldo como Real
+	
+	Escribir "Horas trabajadas del empleado son: "
+	Leer horas
+	
+	Si horas > 42 Entonces
+		extra<-horas-42
+		pago<-42*8838
+		sueldo<-extra*8838*1.5
+		total<-pago+sueldo
+		Escribir "El pago total es ",total 
+		
+	SiNo
+		horassinextra<-42*8838
+		escribir "El pago total es: ",horassinextra
+			
+	FinSi
+	
+FinAlgoritmo
