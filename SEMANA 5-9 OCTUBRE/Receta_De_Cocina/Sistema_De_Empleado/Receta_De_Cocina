@@ -1,0 +1,28 @@
+public class Receta_De_Cocina {
+
+    public static void main(String[] args) {
+    var consola = new Scanner(System.in);
+    
+    // Nombre de la Recenta
+    System.out.print("Nombre de la Receta ");
+    String nombreReceta = consola.nextLine();
+    
+    // Ingredientes principales
+    System.out.print("Ingredientes principales ");
+    String ingredientesReceta = consola.nextLine();
+    
+    // Tiempo de preparacion
+    System.out.print("Tiempo de preparacion ");
+    int tiempoPreparacion = consola.nextInt();
+    
+    
+    // Dificultad
+    System.out.print("La receta es dificultad (Facil/Media/Alta)?: ");
+    Boolean esdificultadreceta = consola.nextBoolean();
+    
+    // Imprimir los valores de la receta
+    System.out.println("\nDatos de la Receta ");
+    System.out.println("\tNombre Receta: " + nombreReceta);
+    System.out.println("\tIngredientes Principales: " + ingredientesReceta);
+    System.out.printf("\tTiempo de preparacion ", tiempoPreparacion);
+    System.out.println("\tCual es la dificultad de la receta? " + esdificultadreceta);
