@@ -1,1 +1,7 @@
+Algoritmo ciclofor 
+Definir i Como Entero 
+Para i <- 1 hasta 10 con paso 1 hacer
+Escribir 1 
+FinPara
 
+FinAlgoritmo 
