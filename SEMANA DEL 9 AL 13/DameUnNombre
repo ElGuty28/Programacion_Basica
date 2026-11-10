@@ -1,0 +1,12 @@
+Algoritmo DameUnNombre
+Definir i, suma, n como Entero
+Definir nombre como Caracter
+Escribir "Dame un nombre "
+Leer nombre
+Escribir "Cuantas veces quieres repetir el nombre "
+leer n
+Para i <- 1 hasta n
+Escribir "Su nombre es ", nombre
+FinPara
+Escribir "La cantidad de numeros sumados es ", n
+FinAlgoritmo
