@@ -1,0 +1,10 @@
+Algoritmo SolicitarNumero
+Definir i,suma,n Como Entero
+Escribir "Dame un numero ",n
+Leer n
+suma <- 0
+Para i <- 1 hasta n  
+suma <- suma + i
+Escribir "El resultado de tu numero es ", suma 
+FinPara
+FinAlgoritmo
