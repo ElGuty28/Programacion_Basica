@@ -1,0 +1,16 @@
+Algoritmo CalcularSalarioFinal
+    Definir sueldo, auxiliotransporte, salarioFinal Como Real
+    
+    auxiliotransporte <- 200000
+    
+    Escribir "Ingresa el sueldo mensual: "
+    Leer sueldo
+    
+    Si sueldo < 1500000 Entonces
+        salarioFinal <- sueldo + auxiliotransporte
+    SiNo
+        salarioFinal <- sueldo
+    FinSi
+    
+    Escribir "El sueldo final es: ", salarioFinal
+FinAlgoritmo
